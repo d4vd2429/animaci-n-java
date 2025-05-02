@@ -1,0 +1,37 @@
+body {
+    background-color: #dd3d3d;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 600px;
+    height: 400px;
+    border: 3px dashed #aaa;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .box {
+    width: 80px;
+    height: 80px;
+    background-color: #3498db;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: border-radius 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .controls {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
